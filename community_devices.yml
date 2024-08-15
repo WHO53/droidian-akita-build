@@ -1,0 +1,19 @@
+.lenovo_akita_packages:
+  packages: &lenovo_akita_packages
+    - adaptation-lenovo-akita
+    - adaptation-lenovo-akita-configs
+    - linux-bootimage-4.9-117-lenovo-akita
+    - linux-bootimage-lenovo-akita
+    - linux-headers-4.9-117-lenovo-akita
+    - linux-headers-lenovo-akita
+    - linux-image-4.9-117-lenovo-akita
+    - linux-image-lenovo-akita
+
+lenovo_akita:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *lenovo_akita_packages
