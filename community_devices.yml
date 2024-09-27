@@ -12,7 +12,7 @@
 lenovo_akita:
   type: image
   arch: arm64
-  edition: phosh
+  edition: [phosh, cutie]
   variant: phone
   apilevel: 28
 
