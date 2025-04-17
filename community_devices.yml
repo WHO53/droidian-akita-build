@@ -1,0 +1,13 @@
+.lenovo_akita_packages:
+  packages: &lenovo_akita_packages
+    - adaptation-lenovo-akita
+    - adaptation-lenovo-akita-configs
+
+lenovo_akita:
+  type: image
+  arch: arm64
+  edition: [phosh, plamo_wf_experimental]
+  variant: phone
+  apilevel: 29
+
+  packages: *lenovo_akita_packages
