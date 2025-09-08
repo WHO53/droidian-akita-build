@@ -6,7 +6,7 @@
 lenovo_akita:
   type: image
   arch: arm64
-  edition: [phosh, plamo_wf_experimental]
+  edition: [phosh]
   variant: phone
   apilevel: 29
 
